@@ -1,0 +1,63 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 80%;
+}
+  
+.about-content {
+    flex: 1;
+}
+  
+.about-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 500;
+    margin-bottom: 20px; 
+}
+
+.about-content h2::after {
+    content: '';
+    display: block;
+    width: 50px; 
+    height: 2px; 
+    background-color: #1e73be; 
+    margin-top: 20px;
+    margin-bottom: 30px; 
+}
+  
+.about-content p {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+  
+.learn-more-btn {
+    display: flex;
+    align-items: center;
+    padding: 12px 40px;
+    background-color: #1e73be;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+  
+.about-image img {
+    width: 100%;
+    max-width: 550px;
+    height: 330px;
+}
+  

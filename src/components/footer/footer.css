@@ -1,0 +1,136 @@
+.footer {
+    background-color: #002c49;
+    color: white;
+    padding: 20px 0;
+    
+}
+  
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0 auto;
+    width: 80%;
+}
+  
+.footer-column {
+    display: block;
+    margin: 0 20px;
+}
+
+.first-column{
+    width: 600px;
+}
+  
+.footer-column h3 {
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.footer-column h3::after {
+    content: '';
+    display: block;
+    width: 70px; 
+    height: 2px; 
+    background-color: #1e73be; 
+    margin-top: 20px;
+    margin-bottom: 30px; 
+    text-align: center;
+}
+  
+.footer-column p, .footer-column ul, .footer-column li {
+    margin: 5px 0;
+    line-height: 30px;
+}
+
+.footer-column p{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: justify;
+}
+  
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* .footer-column ul li a {
+    content: '';
+    display: block;
+    width: 70px; 
+    height: 2px; 
+    background-color: #444; 
+    margin-top: 20px;
+    margin-bottom: 30px; 
+    text-align: center;
+} */
+  
+/* .footer-column ul li a:hover {
+    text-decoration: underline;
+} */
+
+.footer-column small{
+    color: #666;
+    font-weight: 600;
+}
+
+.column-two{
+    margin-left: 10px;
+}
+
+.third-column p{
+    line-height: 16px;
+}
+
+.third-column {
+    width: 350px;
+}
+  
+
+
+.third-column .address{
+    margin-bottom: 25px;
+}
+
+.third-column .phone{
+    margin-bottom: 25px;
+}
+
+  
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
+  
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    border-top: 1px solid #444;
+}
+
+.authorization{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authorization p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.authorization span{
+    color: #0b7dbf;
+}

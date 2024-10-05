@@ -1,0 +1,71 @@
+.image-book-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+  
+.background-book-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover; 
+}
+  
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: transparent;
+    text-align: center;
+}
+  
+.text-overlay h2 {
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background-color: transparent;
+}
+
+.text-overlay h2::after {
+    content: '';
+    display: block;
+    width: 100px; 
+    height: 3px; 
+    background-color: #1e73be; 
+    margin-top: 20px;
+    margin-bottom: 30px; 
+    text-align: center;
+    margin: 20px auto 30px auto;
+}
+  
+.text-overlay p {
+    font-size: 16px;
+}
+
+.image-overlap-text{
+    margin-bottom: 30px;
+}
+
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.About-BASS-TRAVELS-btn{
+    padding: 15px 40px;
+    background-color: #1e73be;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+}

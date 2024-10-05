@@ -1,0 +1,70 @@
+.distance-flat-container {
+    display: flex;
+    background-color: #002c49;
+    padding: 20px;
+
+}
+  
+.toggle-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+  
+.toggle-buttons button {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #002c49;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+.toggle-buttons button.active {
+    background-color: #1e73be;
+    width: 100%;
+    text-align: center;
+}
+  
+.content-section {
+    background-color: #002c49;
+    padding: 30px;
+    
+}
+
+  
+.grid-layout {
+    display: flex;
+    gap: 20px; 
+    align-items: center;
+}
+  
+.grid-layout label {
+    font-size: 14px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-top: -100px;
+    padding: 0 50px;
+    
+}
+  
+.grid-layout input {
+    display: block;
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 700%;
+    height: 30px;
+    margin-left: -135px;
+}
+  
+.book-now-btn{
+    padding: 15px 40px;
+    background-color: #1e73be;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
